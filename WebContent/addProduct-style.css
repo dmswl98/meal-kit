@@ -1,0 +1,64 @@
+@charset "EUC-KR";
+/* products */
+.title { 
+  font-size: 45px;
+  color: #55a630;
+  margin-bottom: 45px;
+}
+
+/* add a product */
+select option {
+    font-family: 'Noto Sans', sans-serif;
+}
+textarea {
+    width: 100%;
+    resize: none;
+     border-radius: 5px;
+     outline-color: #55a630;
+     padding: 8px 10px;
+     font-family: 'Noto Sans', sans-serif;
+}
+label {
+    display: inline-block;
+}
+.products {
+    margin-bottom: 100px;
+}
+.product {
+    margin-bottom: 20px;
+}
+.star-rating label {
+    margin-right: 20px;
+}
+.product label {
+    margin-right: 41px;
+}
+label {
+    margin-bottom: 10px;
+}
+.product-input {
+    width: 500px;
+    font-size: 15px;
+}
+.product-input:focus {
+    border: 2px solid #55a630;
+}
+select {
+    font-family: 'Noto Sans', sans-serif;
+}
+.product-input, textarea {
+    border: 1px solid #a09e9c;
+}
+.product-submit {
+    position: relative;
+}
+.product-submit input{
+    margin: 20px 0;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+.product-form-control.fill-button {
+    font-size: 18px;
+}

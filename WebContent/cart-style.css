@@ -1,0 +1,42 @@
+@charset "EUC-KR";
+/* table */
+.title {
+  font-size: 45px;
+  color: #55a630;
+  margin-bottom: 45px;
+}
+.content {
+    margin: 45px 0;
+}
+.content .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+table {
+  width: 900px;
+  text-align: center;
+  border: 1px solid #a09e9c;
+  margin: 35px 0;
+}
+table td, th {
+  padding: 7px 0;
+}
+table th {
+  background-color: #eeeeee; 
+  text-align: center;
+}
+.col-quantity {
+    width: 100px;
+}
+.col-delete {
+    width: 100px;
+}
+.delete-btn {
+    margin-right: 0;
+    height: 35px;
+    line-height: 33px;
+}
+.product-page:hover {
+	color: #a09e9c;
+}

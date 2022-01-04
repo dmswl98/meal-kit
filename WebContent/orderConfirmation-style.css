@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+/* Shipping info */
+.title { 
+  font-size: 45px;
+  color: #55a630;
+  margin: 45px 0;
+}
+.receipt .subtitle {
+	background-color: rgba(85, 166, 48, 0.3);
+	 border-radius: 8px;
+	  padding: 13px 20px;
+  margin-bottom: 10px;
+ 
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+	font-weight: 700;
+}
+.form-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.receipt-desc {
+	width: 800px;
+	text-align: left;
+}
+.receipt-desc p {
+	font-size: 15px;
+}
+input {
+  width: 100%;
+  border:1px solid #a09e9c;
+}
+
+.order-btn .fill-button {
+	width: 380px;
+	margin-top: 50px;
+	margin-right: 0;
+	font-size: 16px;
+	height: 50px;
+	line-height: 47px;
+}
+.button-group {
+	width: 900px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.button-group .fill-button:last-child {
+	margin-right:0;
+}

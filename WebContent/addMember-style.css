@@ -1,0 +1,36 @@
+@charset "EUC-KR";
+/* add Member */
+.title { 
+  font-size: 45px;
+  color: #55a630;
+  margin: 45px 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  border:1px solid #a09e9c;
+}
+input:focus {
+  border: 2px solid #55a630;
+}
+.sign-up {
+	width: 500px;
+    margin-bottom: 100px;
+}
+.signup-btn {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+}
+
+.sign-up .fill-button {
+	cursor: pointer; 
+  font-size: 17px;
+}
+.sign-up .fill-button:last-child {
+	margin-right: 0;
+}

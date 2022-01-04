@@ -1,0 +1,161 @@
+/*---------------- product ---------------*/
+.product .container {
+  margin-bottom: 80px;
+}
+.title {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+  border-bottom: 2px solid #55a630;
+  color: #55a630;
+}
+.meal-kit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products-button {
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+.products-button .fill-button {
+  font-size: 16px;
+  height: 56px;
+  line-height: 52px;
+  padding: 0 20px;
+  margin-right: 0;
+}
+.product-card {
+  margin-right: 20px;
+  margin-bottom: 70px;
+}
+.product-img .image-box {
+  width: 230px;
+  height: 280px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: filter 350ms ease-in-out;
+}
+.product-img {
+  position: relative;
+}
+.product-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-img img:hover {
+  filter: brightness(85%);
+}
+.product-img img:active {
+  transition: opacity 250ms ease-in-out;
+  opacity: 0.7;
+}
+.product-detail {
+  height: 70px;
+}
+.product-detail h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.product-detail h4:hover {
+  color: #55a630;
+}
+.product-detail p {
+  font-size: 16px;
+}
+.product-detail .price {
+  color: #5f5b57;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+.badge p {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #2b9348;
+  width: 52px;
+  padding: 17px 0;
+  border-radius: 50px;
+  text-align: center;
+}
+.badge.new p {
+  background-color: #ff2e2e;
+}
+.duration {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100px; */
+  height: 39px;
+  padding: 10px 15px 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.duration img {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.duration p {
+  font-size: 14px;
+  color: #fff;
+}
+.star {
+  display: flex;
+}
+.star.level {
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.fa-star {
+  color: #aacc00;
+}
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 220px;
+  background-color: #55a630;
+  border-radius: 30px;
+  margin-bottom: 35px;
+}
+.sale h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.sale p {
+  color: #fff;
+  margin-bottom: 35px;
+}
+.view-all {
+  height: 62px;
+  line-height: 62px;
+  font-size: 18px;
+  padding: 0 20px;
+}
+.fill-button.search-button {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+}
